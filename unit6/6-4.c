@@ -7,7 +7,8 @@ int main()
 {
 	char ch;
 	char i,j,k,m;
-	while(scanf("%c", &ch)==1 && ch!='\n')
+	printf("Enter a letter [empy line to exit]: ");
+	while(scanf("%c", &ch)==1 && ch!='\n' )
 	{
 
 		if(ch>='a' && ch<='z')
@@ -36,6 +37,7 @@ int main()
 				printf("\n");
 			}
 		}
+		printf("Enter a letter [empy line to exit]: ");
 		while((ch=getchar())!='\n')
 			continue;
 
